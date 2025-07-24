@@ -1,5 +1,5 @@
 @media (max-width: 1000px) {
-/***********************START HEADER******/
+/*START HEADER*/
     /*START HEADER-CONTENT*/
     .header-content h1{
         font-size: 50px;
@@ -11,9 +11,9 @@
         margin-bottom: 20px;
     }
     /*END HEADER-CONTENT*/
-/***********************END HEADER******/
+/*END HEADER*/
 
-/***********************START CHOISE******/
+/*START CHOISE*/
     .container-choices {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto auto;
@@ -28,14 +28,14 @@
     .choise-item {
         grid-template-rows: auto 1fr auto;
     }
-/***********************END CHOISE****/
+/*END CHOISE*/
 
-/**********************START SELL*****/
+/*START SELL*/
     .sell-card-last {
         display: none;
     }
-/**********************END SELL*****/
-/**********************START EXPERIANCE*****/
+/*END SELL*/
+/*START EXPERIANCE*/
     .experience-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -60,22 +60,22 @@
         align-self: start;
         margin-top: 0;
     }
-/**********************END EXPERIANCE*****/
+/*END EXPERIANCE*/
 
-/**********************START MATERIALS******/
+/*START MATERIALS*/
     .container-materials {
         display: grid;
         grid-template-columns: 1.2fr 1fr;
     }
-/**********************END MATERIALS******/
-/**********************START REVIEW******/
+/*END MATERIALS*/
+/*START REVIEW*/
     .review-img-three {
         display: none;
     }
-/**********************END REVIEW******/
+/*END REVIEW*/
 }
 @media (max-width: 800px) {
-/***********************START HEADER******/
+/*START HEADER*/
     /*START NAV-CONTAINER*/
     nav {
         display: none;
@@ -130,8 +130,8 @@
         display: none;
     }
     /*END TOUCH*/
-/***********************END HEADER******/
-/***********************START CHOISE****/
+/*END HEADER*/
+/*START CHOISE*/
     .container-choices {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
@@ -150,9 +150,9 @@
         margin-bottom: 15px;
         font-size: 20px;
     }
-/***********************END CHOISE******/
+/*END CHOISE*/
 
-/**********************START SELL*****/
+/*START SELL*/
     .sell-block__item {
         flex-wrap: wrap;
         justify-content: space-around;
@@ -164,9 +164,9 @@
     .arrow-sell-product {
         top: 45%;
     } 
-/**********************END SELL*****/
+/*END SELL*/
 
-/**********************START EXPERIANCE*****/
+/*START EXPERIANCE*/
     .experience-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -197,9 +197,9 @@
     .experience-vector {
         margin-top: 10px;
     }
-/**********************END EXPERIANCE*****/
+/*END EXPERIANCE*/
 
-/**********************START MATERIALS******/
+/*START MATERIALS*/
     .container-materials {
         display: grid;
         grid-template-columns: 1fr;
@@ -214,12 +214,12 @@
     .materials-text > .materials-vector{
         margin-bottom: 20px;
     }
-/**********************END MATERIALS******/
+/*END MATERIALS*/
     .container-review > .experience-h4 {
         max-width: 100%;
         justify-self: center;
     }
-/*******************START FOOTER*******/
+/*START FOOTER*/
     .footer-content {
         display: grid;
         grid-template-columns: 1fr 1.1fr;
@@ -237,12 +237,13 @@
     .footer-content h5 {
         margin-bottom: 5px;
     }
+/*END FOOTER*/
 }
 
 @media (max-width: 700px) {
 /***********START REVIEW******/
     .review-img-three {
-        display: block;
+        display: flex;
     }
     .review-block {
         display: grid;
@@ -250,7 +251,8 @@
         row-gap: 30px;
         justify-items: center;
     }
-/************START REVIEW******/
+/************END REVIEW******/
+/*START FOOTER*/
     .footer-content {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -272,11 +274,12 @@
      .footer-list ul {
         flex-direction: column;
     }
+/*END FOOTER*/
 }
 
 @media (max-width: 600px) {
-/***********************START HEADER******/
-    /*START NAV-CONTAINER*/
+/*START HEADER*/
+/*START NAV-CONTAINER*/
     .gamburger {
         margin-left: 0;
     }
@@ -287,9 +290,9 @@
         padding-top: 21px;
         padding-bottom: 21px;
     }
-    /*START NAV-CONTAINER*/
+/*START NAV-CONTAINER*/
 
-    /*START HEADER-CONTENT*/
+/*START HEADER-CONTENT*/
     .header-content h1{
         margin-top: 15px;
         margin-bottom: 20px;
@@ -298,28 +301,29 @@
     .header-content p {
         display: none;
     }
-    /*END HEADER-CONTENT*/
+/*END HEADER-CONTENT*/
 
-    /*START TOUCH*/
+/*START TOUCH*/
     .position__one-touch, .position__three-touch {
         display: none;
     }
-    /*END TOUCH*/
-/***********************END HEADER******/
+/*END TOUCH*/
+/*END HEADER*/
 
-/**********************START SELL*****/
+/*START SELL*/
     .arrow-sell-product {
         display: none;
     }
-/**********************END SELL*****/
-/**********************START EXPERIANCE*****/
+/*END SELL*/
+/*START EXPERIANCE*/
     .experience-h2 {
         font-size: 32px;
     }
     .experience-h4 {
         font-size: 16px;
     }
-/**********************END EXPERIANCE*****/
+/*END EXPERIANCE*/
+/*START MATERIALS*/
     .materials-img {
         display: grid;
         grid-template-columns: 0.3fr 0.3fr;
@@ -344,15 +348,15 @@
         grid-column: 1 / span 2;
         grid-row: 2;
     }
-/**********************AND MATERIALS******/
+/*AND MATERIALS*/
 }
 
 @media(max-width: 500px) {
+/*START FOOTER*/
     .footer-content {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: start;
-        
     }
     .about-company {
         grid-column: 1 / span 1;
@@ -363,6 +367,7 @@
     .container-privacy {
         justify-content: center;
     }
+/*AND FOOTER*/
 }
 
 @media (max-width: 400px) {
@@ -371,32 +376,34 @@
         font-size: 22px;
     }
 /*END HEADER-CONTENT*/
-/**********************START EXPERIANCE*****/
+/*START EXPERIANCE*/
     .experience-h2 {
         font-size: 28px;
     }
     .experience-h4 {
         font-size: 16px;
     }
-/**********************END EXPERIANCE*****/
+/*END EXPERIANCE*/
 
-/**********************START MATERIALS******/
+/*START MATERIALS*/
     .materials-img {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
         justify-content: center;
     }
-/**********************END MATERIALS******/
-/*********************START REVIEW*******/
+/*END MATERIALS*/
+/*START REVIEW*/
     .review-img {
         padding-left: 0;
         padding-right: 0;
     }
-/******************END REVIEW***********/
-.container-privacy div {
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-}
+/*END REVIEW*/
+/*START FOOTER*/
+    .container-privacy div {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+/*AND FOOTER*/
 }
